@@ -1,7 +1,5 @@
-# Prometheus
-Website (SolidJS) 
-
----
+# Prometheus Chat
+Website (SolidJS)
 
 ## Live demo
 https://chad.atheus.net/
