@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>ChadGPT</title>
+        <style>@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=block')</style>
+        <link rel="stylesheet" type="text/css" href="style.css?v7" />
+        <link rel="icon" href="Gigachad-Transparent.ico" type="image/x-icon" />
+        <script>
+        /* https://stackoverflow.com/a/60138011 */
+        // Check if API exists
+        if (document && document.fonts) {    
+          // Do not block page loading
+          setTimeout(function () {           
+            document.fonts.load('16px "Young Serif"').then(() => {
+              // Make font using elements visible
+              document.querySelector('body').style.display = 'flex';
+            })
+          }, 0)
+        } else {
+          // Fallback if API does not exist 
+          document.querySelector('body').style.display = 'flex';
+        }
+      </script>
+    </head>
+    <body class="container" style="display: none">
+        <div class="content">
+            <h1>ChadGPT</h1>
+            <div class="container github-link-wrapper">
+                <a class="github-link" href="https://github.com/atheus-project">
+                    <img src="Gigachad-Transparent.png" />
+                </a>
+            </div>
+            <h3><i>Coming soon&#8482;</i></h3>
+        </div>
+        
+    </body>
+</html>
